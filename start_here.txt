@@ -1,0 +1,15 @@
+# Task post installing macOS
+# Install brew
+% /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# Install programming packages
+% brew install python
+
+# Install productivity, editior and other packages
+% brew cask install google-chrome iterm2 sublime-text visual-studio-code vlc
+
+# Update the system
+% brew update
+
+# Clean brew old data
+% brew cleanup
