@@ -3,7 +3,7 @@
 % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Install programming packages
-% brew install python tree
+% brew install python tree mysql
 
 # Install productivity, editior and other packages
 % brew cask install google-chrome iterm2 sublime-text visual-studio-code vlc
@@ -13,3 +13,8 @@
 
 # Clean brew old data
 % brew cleanup
+
+# Securing MySQL Server
+% mysql.server start
+% mysql_secure_installation
+# My root pass is vidyadhar
